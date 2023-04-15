@@ -1,0 +1,190 @@
+#wpcontent{background:#fff !important;}
+			#toplevel_page_post-taxonomy-settings img{margin-top:-5px !important;}
+			hr{margin:15px 0;}
+			h2.title-ptf {
+				font-size: 30px;
+				font-weight: normal;
+			}
+
+			.about-ptf {
+				font-size: 16px;
+			}
+
+			.about-ptf span {
+				padding-right: 20px;
+				color: #68a5f3;
+				font-size: 20px;
+				font-weight: bold;
+			}
+			.setting-section {
+				width: 49%;
+				display: inline-block;
+				min-width: 300px;
+				font-size: 16px;
+			}
+.current.menu-top.toplevel_page_post-taxonomy-settings img{
+padding-top:11px;
+}
+			.setting-section select {
+				margin: 0 10px;
+				width: 65%;
+				border-radius: 5px;
+				font-size: 16px;
+				padding: 10px;
+				position: relative;
+				min-height: 44px;
+				z-index: 1;
+				background: none;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				font-weight: bold;
+				appearance: none;
+				/* border-color: #68aaf5; */
+				line-height: 24px;
+			}
+			
+			.basicsetting h3 {
+				display: inline-block;
+			}
+
+			.basicsetting .section-detail {
+				width: calc(100% - 135px);
+				display: inline-block;
+				margin-left: 15px;
+			}
+
+			.setting-section:after {
+				content: '';
+				width: 12px;
+				height: 12px;
+				border: 2px solid #68aaf5;
+				display: inline-block;
+				transform: rotate(45deg);
+				border-top: 0;
+				border-left: 0;
+				right: 40px;
+				position: relative;
+				z-index: 0;
+			}
+			.themesetting .setting-section:after{
+				display:none;
+			}
+			.themesetting input[type=radio] {
+				margin: 0px 2px 0 5px;
+			}
+			.themesetting label {
+				font-weight: bold;
+				margin-right: 10px;
+			}
+			.themesetting input[type=number]{
+				min-height: 44px;
+				font-weight: bold;
+				text-align: center;
+				width: 77px;
+				font-size: 18px;
+				margin-left:10px;
+			}
+			.working-query.basicsetting .section-detail{
+				width: calc(100% - 140px);
+			}
+			.show-output .filter-description {
+				display: inline-block;
+				width: 300px;
+			}
+
+			.show-output .filter-taxonomy {
+				display: inline-block;
+				vertical-align: top;
+				width: 400px;
+				margin-left:20px;
+			}
+
+			.show-output .post_output {
+				display: inline-block;
+				vertical-align: top;
+				width: 400px;
+				margin-left: 20px;
+			}
+			.show-output textarea {
+				width: 100%;
+				min-height: 220px;
+				text-align: left;
+			}
+			.show-output .filter-taxonomy textarea {
+				min-height: 80px;
+			}
+			.show-output h4 {
+				font-weight: normal;
+				font-size: 18px;
+				vertical-align: top;
+				margin-top: 0;
+				margin-bottom: 13px;
+			}
+			.show-output .output-heading{
+				font-size: 26px;
+				color: #68a5f3;
+				margin-bottom: 30px;
+			}
+			.show-output{
+				font-size: 16px;
+				line-height: 22px;
+			}
+			.show-output hr {
+					border-color: #eee;
+					border-bottom: 0px;
+				}
+
+				
+				
+				
+.filter-resullts-area .filter-section li.region-name {
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    margin: 5px;
+    box-shadow: 0px 0px 1px #ccc;
+    cursor: pointer;
+    position: relative;
+}
+
+.filter-resullts-area .filter-section ul {
+    list-style: none;
+}
+
+.filter-resullts-area .filter-section li.region-name img {
+    max-width: initial;
+    max-height: 100%;
+    display: inline-block;
+    width: initial;
+    height: 30px;
+    float: left;
+    /* max-height: 100%; */
+    /* height: 100%; */
+    /* line-height: 0px; */
+    margin-right: 10px;
+}
+
+.filter-resullts-area .filter-section li.region-name.active:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    transform: rotate(44deg);
+    left: calc(50% - 5px);
+    bottom: -6px;
+    background: #f9f9f9;
+}
+
+.filter-resullts-area .filter-section li.region-name.active,.filter-resullts-area .filter-section li.region-name:hover {
+    background: #f9f9f9;
+}
+.filter-description b {
+    color: #68a5f3;
+}

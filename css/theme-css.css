@@ -1,0 +1,203 @@
+.filter-resullts-area .filter-section li.region-name {
+			list-style: none;
+			display: inline-block;
+			height: 50px;
+			line-height: 30px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			vertical-align: middle;
+			margin: 5px;
+			box-shadow: 0px 0px 1px #ccc;
+			cursor: pointer;
+			position: relative;
+		}
+
+		.filter-resullts-area .filter-section ul {
+			list-style: none;
+		}
+
+		.filter-resullts-area .filter-section li.region-name img {
+			max-width: initial;
+			max-height: 100%;
+			display: inline-block;
+			width: initial;
+			height: 30px;
+			float: left;
+			/* max-height: 100%; */
+			/* height: 100%; */
+			/* line-height: 0px; */
+			margin-right: 10px;
+		}
+
+		.filter-resullts-area .filter-section li.region-name.active:after {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			left: calc(50% - 6px);
+			bottom: -8px;
+			background: #ffffff;
+			width: 0;
+			height: 0;
+			border-left: 8px solid transparent;
+			border-right: 8px solid transparent;
+			border-top: 8px solid #16c5da;
+		}
+
+		.filter-resullts-area .filter-section li.region-name.active,.filter-resullts-area .filter-section li.region-name:hover {
+			background: #16c5da;
+			color: #fff;
+		}
+
+		.filtered-content-section .region-vendor{
+			display:none;
+		}
+		.filtered-content-section .region-vendor.active{
+			display:block;
+		}
+		.filtered-content-section .vendor {
+			width: calc((100% / 3.05) - 14px);
+			display: inline-block;
+			margin: 7px;
+			border: 1px solid #ccc;
+			vertical-align: top;
+			overflow:hidden;
+		}
+		.filtered-content-section.box-5 .vendor {
+			width: calc((100% / 5.05) - 14px);
+		}
+		.filtered-content-section.box-4 .vendor {
+			width: calc((100% / 4.05) - 14px);
+		}
+		.filtered-content-section.box-3 .vendor {
+			width: calc((100% / 3.05) - 14px);
+		}
+		.filtered-content-section.box-2 .vendor {
+			width: calc((100% / 2.05) - 14px);
+		}
+		.filtered-content-section.box-1 .vendor {
+			width: 100%;
+			margin-right:0px;
+			margin-left:0px;
+		}
+		.filtered-content-section .vendor .other-details {
+			padding: 20px;
+		}
+
+		.filtered-content-section .vendor h4 {
+			font-size: 22px;
+			line-height: 22px;
+			letter-spacing: 0;
+			color: #373737;
+			font-weight: normal;
+		}
+
+		.filtered-content-section .vendor .description {
+			font-size: 18px;
+			font-family: zc_regular;
+			color: #858484;
+			line-height: 22px;
+		}
+
+		.filtered-content-section .vendor .post-image {
+			text-align: center;
+			background: #f9f9f9;
+		}
+		.filtered-content-section.box-1 .vendor{
+				vertical-align: middle;
+		}
+		.filtered-content-section.box-1 .vendor .post-image{
+				width: 25%;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.filtered-content-section.box-1 .vendor .other-details{
+				display: inline-block;
+			width: 74%;
+			vertical-align: middle;
+		}
+		.filtered-content-section .post-date {
+			padding-top: 13px;
+		}
+
+		.filtered-content-section .about-post {
+			float: left;
+			width: 100%;
+			vertical-align: middle;
+			padding-bottom: 20px;
+		}
+
+		.filtered-content-section .post-author {
+			float: left;
+		}
+
+		.filtered-content-section .post-date {
+			float: right;
+		}
+
+		.filtered-content-section .post-author img {
+			width: 50px;
+			border-radius: 100%;
+			border: 3px solid #ccc;
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 10px;
+		}
+
+		/* --------------- Left ----------------- */
+		.filter-resullts-area.left {
+			float:left;
+			width:100%;
+		}
+		.filter-resullts-area.left .fliter-section {
+			float: left;
+		}
+
+		.filter-resullts-area.left .filter-section {
+			float: left;
+			width: 250px;
+		}
+
+		.filter-resullts-area.left .filter-section li.region-name {
+			width: 100%;
+		}
+
+		.filter-resullts-area.left .filter-section li.region-name.active:after {
+			top: calc(50% - 4px);
+			right: -12px;
+			left: inherit;
+			transform: rotate(-90deg);
+		}
+
+		.filter-resullts-area.left .filtered-content-section {
+			float: right;
+			width: calc(100% - 270px);
+		}
+		/* --------------- Left ----------------- */
+
+
+		/* --------------- Right ----------------- */
+		.filter-resullts-area.right {
+			float:left;
+			width:100%;
+		}
+		.filter-resullts-area.right .filter-section {
+			float: right;
+			width: 250px;
+		}
+
+		.filter-resullts-area.right .filter-section li.region-name {
+			width: 100%;
+		}
+
+		.filter-resullts-area.right .filter-section li.region-name.active:after {
+			top: calc(50% - 4px);
+			left: -12px;
+			right: inherit;
+			transform: rotate(90deg);
+		}
+
+		.filter-resullts-area.right .filtered-content-section {
+			float: left;
+			width: calc(100% - 270px);
+		}
+/* --------------- Right ----------------- */
